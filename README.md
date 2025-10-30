@@ -1,67 +1,58 @@
 # 🎮 Monster Mayhem
-
-## 🧩 Introduction
-**Monster Mayhem** is an exciting web-based board game that introduces players to a 10x10 grid of interconnected hexagons.  
-This project focuses on essential functionalities such as highlighting hexagons, enabling selection and deselection, and incorporating asynchronous data processing.  
-
-Additional challenges include adding new mechanics like **character movement** and **path highlighting**.  
-Through this project, I demonstrate **problem-solving** and **troubleshooting skills** to create a seamless and interactive gaming experience.
+A web-based board game built with HTML, CSS, and JavaScript.
 
 ---
 
-## 🕹️ Game Rules
-- The goal of *Monster Mayhem* is to **find the 5 monsters hidden on the board**.  
-- The game is designed for **two players**, each with a distinct color scheme:
-  - 🟡 **Player 1:** Gold  
-  - ⚫ **Player 2:** Black  
-- Players take turns clicking on hexagons, marking their moves with their respective colors.  
-- When a player discovers a monster:
-  - The hexagon turns **purple** 💜  
-  - A purple indicator appears next to the player’s name.  
-- The first player to find **3 out of 5 monsters** wins the game 🏆.
+## 💡 Introduction
+**Monster Mayhem** is an exciting web-based board game that introduces players to a 10x10 grid of interconnected hexagons. The project focuses on implementing key functionalities such as highlighting hexagons, enabling selection and deselection, and incorporating asynchronous data processing. Additional challenges include adding mechanics like character movement and path highlighting. Through this project, I showcase problem-solving and troubleshooting skills to deliver a smooth and engaging gaming experience.
 
 ---
 
-## 🧠 Troubleshooting & Development Process
-
-### 🔹 Reorganization of Elements (HTML)
-Reorganized the layout by moving the monster counters into a new container.  
-This improved positioning and made it possible to place the counters on each side of the board for better visual balance.
-
-### 🎨 Styling of New Elements (CSS)
-Styled the new elements, ensuring proper alignment and seamless integration with the existing design.  
-Visual consistency was maintained across the entire board.
-
-### ⚙️ Update of Event Listeners (JavaScript)
-Kept the hexagon interactivity intact after layout changes.  
-Players can still click and mark hexagons without losing functionality.
-
-### 👾 Monster Counting & Display Logic (JavaScript)
-Implemented logic to count and display the number of monsters found by each player.  
-When a player discovers a monster, their counter increases and a monster icon appears beside their name.
+## 🧩 Features
+- Interactive 10x10 hexagonal game board  
+- Turn-based gameplay for two players  
+- Hexagon highlighting, selection, and deselection  
+- Monster discovery and counter system  
+- Visual feedback through color changes and monster icons  
+- Responsive and visually consistent layout  
 
 ---
 
-## 💡 Summary
-Each development step addressed key aspects of the game:
-- Improved **layout organization**
-- Enhanced **visual presentation**
-- Maintained **player interactivity**
-- Strengthened **game logic and feedback**
-
-These improvements ensured a smooth, enjoyable, and visually engaging gaming experience.
+## ⚙️ Technologies Used
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
 
 ---
 
-## 🏁 Conclusion
-Through careful troubleshooting and refinement, *Monster Mayhem* evolved into a functional and visually appealing board game.  
-By solving challenges related to layout, design, event handling, and game logic, the project now offers a fun and immersive experience for players.
+## 🚀 How to Run the Project
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/RenanDeCastilhos/MonsterMayhemGame.git
 
-I plan to continue improving the game by adding **new features**, **movement mechanics**, and **path highlighting** to make the experience even more dynamic and entertaining.
+2. Open the folder in your code editor (e.g., VSCode).
 
----
+3. Open the index.html file in your browser.
 
-### 👨‍💻 Developed by:
-**Renan de Castilhos da Silva**  
+4. Play the game directly in your browser — no installation required.
 
 
+## 🕹️Game Rules
+
+The goal is to find 5 monsters hidden within the hexagonal grid.
+
+The game is designed for two players:
+
+🟡 Player 1: Gold
+
+⚫ Player 2: Black
+
+Players take turns clicking on hexagons to mark their moves.
+
+When a player finds a monster:
+
+The hexagon turns purple.
+
+A purple indicator appears next to their name.
+
+The first player to discover 3 monsters wins the game 🏆.
