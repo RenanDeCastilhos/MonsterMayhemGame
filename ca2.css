@@ -1,0 +1,132 @@
+/* Main container styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game title styling */
+#game-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+/* Players styling */
+#players {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Individual player styling */
+.player {
+    width: 100px; /* Width of each player */
+    height: 30px; /* Height of each player */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.player.active {
+    border-color: blue; /* Border color for active player */
+}
+
+/* Grid container styling */
+#grid {
+    width: 620px; /* Adjust for grid size */
+    height: 700px; /* Adjust for grid size */
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure hexagons stay within the grid */
+}
+
+/* Hexagon styling */
+.hexagon {
+    width: 60px; /* Adjust for hexagon size */
+    height: 69px; /* Adjust for hexagon size */
+    background-color: #ccc;
+    position: absolute;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: background-color 0.3s ease;
+}
+
+.hexagon:hover {
+    background-color: #999;
+}
+
+/* Hexagon player styles */
+.hexagon.player1 {
+    background-color: gold; /* Gold background color */
+}
+
+.hexagon.player2 {
+    background-color: black; /* Black background color */
+}
+
+/* Hexagon monster-found style */
+.hexagon.monster-found {
+    background-color: purple; /* Cor de fundo para hexágonos com monstros encontrados */
+}
+
+/* Winner styling */
+.player.winner {
+    background-color: green; /* Green background color for winner */
+    color: white; /* White text color for winner */
+}
+
+/* Styling for monster capture display */
+#monsters-found {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#monsters-found div {
+    margin: 0 10px;
+}
+
+#player1-monsters,
+#player2-monsters {
+    display: flex;
+    gap: 5px;
+}
+
+.monster-icon {
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Reset button styling */
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: darkred;
+}
