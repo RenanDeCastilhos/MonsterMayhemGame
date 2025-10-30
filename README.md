@@ -1,7 +1,5 @@
 # 🎮 Monster Mayhem
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/FYbECNos)
-
 ## 🧩 Introduction
 **Monster Mayhem** is an exciting web-based board game that introduces players to a 10x10 grid of interconnected hexagons.  
 This project focuses on essential functionalities such as highlighting hexagons, enabling selection and deselection, and incorporating asynchronous data processing.  
@@ -65,4 +63,5 @@ I plan to continue improving the game by adding **new features**, **movement mec
 
 ### 👨‍💻 Developed by:
 **Renan de Castilhos da Silva**  
-Student ID: 2023211  
+
+
